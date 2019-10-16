@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+
+<suite name = "SumSubSuite" verbrose="1">
+    <test name = "SumSubTest">
+        <classes>
+            <class name = "lab1.sumTest"/>
+            <class name = "lab1.subTest"/>
+        </classes>
+    </test>
+</suite>

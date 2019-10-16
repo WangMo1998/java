@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SumSubMultDivAndParametrizedSuite" verbose="1">
+
+    <suite-files>
+        <suite-file path="SumSubSuite.xml"/>
+        <suite-file path="MultDivSuite.xml"/>
+    </suite-files>
+
+    <test name="parametrizedTest">
+        <parameter name="positiveValue" value="45"/>
+        <parameter name="negativeValue" value="-33"/>
+        <classes>
+            <class name="lab1.Parameterized"/>
+        </classes>
+    </test>
+</suite>

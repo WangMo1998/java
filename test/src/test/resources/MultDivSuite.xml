@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+
+<suite name = "MultDivSuite" verbrose="1">
+    <test name = "MultDivTest">
+        <classes>
+            <class name = "lab1.multTest"/>
+            <class name = "lab1.divTest"/>
+        </classes>
+    </test>
+</suite>
