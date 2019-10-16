@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SumSubMultDivAndParametrizedSuite" verbose="1">
+
+
+
+<!--    <parameter name="positiveValue" value="125"/>-->
+<!--    <parameter name="negativeValue" value="-33"/>-->
+
+<!--    <suite-files>-->
+<!--            <suite-file path="SumSubSuite.xml"/>-->
+<!--            <suite-file path="MultDivSuite.xml"/>-->
+<!--    </suite-files>-->
+
+
+    <test name="HomeWork2">
+        <classes>
+            <class name="HomeWork2.AddUserTest"/>
+            <class name="HomeWork2.mantisTests"/>
+        </classes>
+     </test>
+
+    <test name="HomeWork3">
+        <classes>
+            <class name="HomeWork3.AddUserTest"/>
+            <class name="HomeWork3.mantisTests"/>
+        </classes>
+    </test>
+
+    <test name="HomeWork4">
+        <classes>
+            <class name="HomeWork4.AddUserTest"/>
+            <class name="HomeWork4.AddProjectTest"/>
+            <class name="HomeWork4.ViewIssuesTest"/>
+        </classes>
+    </test>
+
+    <test name="HomeWork5">
+        <classes>
+            <class name="HomeWork5.AddDeleteUserAPITest"/>
+            <class name="HomeWork5.ProjectAPITest"/>
+            <class name="HomeWork5.AddDeleteUpdateIssuesAPITest"/>
+        </classes>
+    </test>
+</suite>
+
